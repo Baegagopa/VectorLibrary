@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\CKLIB.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{93597A01-A9C8-4846-B7EF-8F9EAB400BA7}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\CKLIB.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\CKLIBEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{C3DF3146-0A66-4135-B775-6212365C09F8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{7B05909B-6AD2-47FC-90A3-6F641C84D325}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\BCSMath">
+			<UniqueIdentifier>{4350F76E-7D96-4C6D-A341-CB84439DAD39}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\BCSMath\Source">
+			<UniqueIdentifier>{CDF0D98E-4522-460F-928B-8D4ADF8039DA}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\BCSMath\Source\BCSMath">
+			<UniqueIdentifier>{81C1AF0B-7FA7-49F7-9BA4-ABFA62F36C12}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\BCSMath\Source\BCSMath\BCSMath.Build.cs">
+			<Filter>Plugins\BCSMath\Source\BCSMath</Filter>
+		</None >
+		<Filter Include="Plugins\BCSMath\Source\BCSMath\Private">
+			<UniqueIdentifier>{4B6AF16F-C239-433C-A175-D00F8F5DC374}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\BCSMath\Source\BCSMath\Private\BCSMath.cpp">
+			<Filter>Plugins\BCSMath\Source\BCSMath\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\BCSMath\Source\BCSMath\Private\BCSMatrix2.cpp">
+			<Filter>Plugins\BCSMath\Source\BCSMath\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\BCSMath\Source\BCSMath\Private\BCSTestActor.cpp">
+			<Filter>Plugins\BCSMath\Source\BCSMath\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\BCSMath\Source\BCSMath\Private\BCSVector.cpp">
+			<Filter>Plugins\BCSMath\Source\BCSMath\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\BCSMath\Source\BCSMath\Public">
+			<UniqueIdentifier>{61DBE527-4F90-4891-B14F-3B965251259C}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\BCSMath\Source\BCSMath\Public\BCSMath.h">
+			<Filter>Plugins\BCSMath\Source\BCSMath\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\BCSMath\Source\BCSMath\Public\BCSMatrix2.h">
+			<Filter>Plugins\BCSMath\Source\BCSMath\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\BCSMath\Source\BCSMath\Public\BCSTestActor.h">
+			<Filter>Plugins\BCSMath\Source\BCSMath\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\BCSMath\Source\BCSMath\Public\BCSVector.h">
+			<Filter>Plugins\BCSMath\Source\BCSMath\Public</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\BCSMath\BCSMath.uplugin">
+			<Filter>Plugins\BCSMath</Filter>
+		</None >
+		<Filter Include="Plugins\BCSMath\Resources">
+			<UniqueIdentifier>{2D2B3211-6B28-4203-A606-7C8AC0C47C3E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\BCSMath\Resources\Icon128.png">
+			<Filter>Plugins\BCSMath\Resources</Filter>
+		</None >
+		<Filter Include="Source\CKLIB">
+			<UniqueIdentifier>{0F792128-63C0-4284-96CF-D9384D94DE55}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\CKLIB\CKLIB.Build.cs">
+			<Filter>Source\CKLIB</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\CKLIB\CKLIB.cpp">
+			<Filter>Source\CKLIB</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CKLIB\CKLIB.h">
+			<Filter>Source\CKLIB</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CKLIB\CKLIBGameModeBase.cpp">
+			<Filter>Source\CKLIB</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CKLIB\CKLIBGameModeBase.h">
+			<Filter>Source\CKLIB</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
