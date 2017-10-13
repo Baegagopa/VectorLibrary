@@ -3,3 +3,4 @@
 #include "F:\UE4CPP\CKLIB\Plugins\BCSMath\Source\BCSMath\Private\BCSMatrix2.cpp"
 #include "F:\UE4CPP\CKLIB\Plugins\BCSMath\Source\BCSMath\Private\BCSTestActor.cpp"
 #include "F:\UE4CPP\CKLIB\Plugins\BCSMath\Source\BCSMath\Private\BCSVector.cpp"
+#include "F:\UE4CPP\CKLIB\Plugins\BCSMath\Source\BCSMath\Private\Tests\BCSMathTest.cpp"

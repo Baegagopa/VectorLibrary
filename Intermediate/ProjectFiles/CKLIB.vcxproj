@@ -418,8 +418,11 @@
 		<ClCompile Include="..\..\Plugins\BCSMath\Source\BCSMath\Private\BCSMatrix2.cpp" />
 		<ClCompile Include="..\..\Plugins\BCSMath\Source\BCSMath\Private\BCSTestActor.cpp" />
 		<ClCompile Include="..\..\Plugins\BCSMath\Source\BCSMath\Private\BCSVector.cpp" />
+		<ClCompile Include="..\..\Plugins\BCSMath\Source\BCSMath\Private\Tests\BCSMathTest.cpp" />
 		<ClInclude Include="..\..\Plugins\BCSMath\Source\BCSMath\Public\BCSMath.h" />
 		<ClInclude Include="..\..\Plugins\BCSMath\Source\BCSMath\Public\BCSMatrix2.h" />
+		<ClInclude Include="..\..\Plugins\BCSMath\Source\BCSMath\Public\BCSMatrix3.h" />
+		<ClInclude Include="..\..\Plugins\BCSMath\Source\BCSMath\Public\BCSMatrix4.h" />
 		<ClInclude Include="..\..\Plugins\BCSMath\Source\BCSMath\Public\BCSTestActor.h" />
 		<ClInclude Include="..\..\Plugins\BCSMath\Source\BCSMath\Public\BCSVector.h" />
 		<None Include="..\..\Plugins\BCSMath\BCSMath.uplugin" />

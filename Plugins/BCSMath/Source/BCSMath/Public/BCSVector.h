@@ -20,13 +20,28 @@ public:
 	~FBCSVector3();
 	FBCSVector3(float InX, float InY, float InZ);
 
+	
 	FBCSVector3 operator+=(const FBCSVector3& V);
 	FBCSVector3 operator-=(const FBCSVector3& V);
 	FBCSVector3 operator*=(const FBCSVector3& V);
 	FBCSVector3 operator/=(const FBCSVector3& V);
+
+	FBCSVector3 operator+(const FBCSVector3& V) const
+	{
+		return FBCSVector3(X + V.X, Y + V.Y, Z + V.Z);
+	}
 	FBCSVector3 operator-() const;
 	FBCSVector3 operator*(const FBCSVector3& V) const;
 	FBCSVector3 operator^(const FBCSVector3& V) const;
+
+	bool operator==(const FBCSVector3& V) const
+	{
+		return Equals(V);
+	}
+	bool operator!=(const FBCSVector3& V) const
+	{
+		return !Equals(V);
+	}
 	float operator|(const FBCSVector3& V) const;
 
 	friend FVector operator+(const FVector& ls, const FBCSVector3& rs)

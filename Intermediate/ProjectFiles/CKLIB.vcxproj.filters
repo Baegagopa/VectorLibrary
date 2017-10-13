@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\CKLIB.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{93597A01-A9C8-4846-B7EF-8F9EAB400BA7}</UniqueIdentifier>
+			<UniqueIdentifier>{185EBE3D-C27C-41F5-BDB3-D70C9036B416}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\CKLIB.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{C3DF3146-0A66-4135-B775-6212365C09F8}</UniqueIdentifier>
+			<UniqueIdentifier>{5D767A38-60C9-49F6-983B-5FAF2C98495E}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,22 +25,22 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Plugins">
-			<UniqueIdentifier>{7B05909B-6AD2-47FC-90A3-6F641C84D325}</UniqueIdentifier>
+			<UniqueIdentifier>{D2F652B4-746F-425D-A5D8-104C8734DB96}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Plugins\BCSMath">
-			<UniqueIdentifier>{4350F76E-7D96-4C6D-A341-CB84439DAD39}</UniqueIdentifier>
+			<UniqueIdentifier>{835768F8-B3A5-4924-8215-13BFDF1C0CF2}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Plugins\BCSMath\Source">
-			<UniqueIdentifier>{CDF0D98E-4522-460F-928B-8D4ADF8039DA}</UniqueIdentifier>
+			<UniqueIdentifier>{38EDCEC8-24AC-4381-B9EA-D2A7B2B2E26A}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Plugins\BCSMath\Source\BCSMath">
-			<UniqueIdentifier>{81C1AF0B-7FA7-49F7-9BA4-ABFA62F36C12}</UniqueIdentifier>
+			<UniqueIdentifier>{C39C4F4E-0C74-4D47-A64F-CD0DCF13CB69}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Plugins\BCSMath\Source\BCSMath\BCSMath.Build.cs">
 			<Filter>Plugins\BCSMath\Source\BCSMath</Filter>
 		</None >
 		<Filter Include="Plugins\BCSMath\Source\BCSMath\Private">
-			<UniqueIdentifier>{4B6AF16F-C239-433C-A175-D00F8F5DC374}</UniqueIdentifier>
+			<UniqueIdentifier>{C0E435E9-4FD4-4C00-9C7E-24D2A39FB25F}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Plugins\BCSMath\Source\BCSMath\Private\BCSMath.cpp">
 			<Filter>Plugins\BCSMath\Source\BCSMath\Private</Filter>
@@ -54,13 +54,25 @@
 		<ClCompile Include="..\..\Plugins\BCSMath\Source\BCSMath\Private\BCSVector.cpp">
 			<Filter>Plugins\BCSMath\Source\BCSMath\Private</Filter>
 		</ClCompile >
+		<Filter Include="Plugins\BCSMath\Source\BCSMath\Private\Tests">
+			<UniqueIdentifier>{B7DD01D9-0B29-41FD-B4DE-F0C8B2ED8D70}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\BCSMath\Source\BCSMath\Private\Tests\BCSMathTest.cpp">
+			<Filter>Plugins\BCSMath\Source\BCSMath\Private\Tests</Filter>
+		</ClCompile >
 		<Filter Include="Plugins\BCSMath\Source\BCSMath\Public">
-			<UniqueIdentifier>{61DBE527-4F90-4891-B14F-3B965251259C}</UniqueIdentifier>
+			<UniqueIdentifier>{F1EED917-2757-433A-BAA8-E87C9B6CF333}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Plugins\BCSMath\Source\BCSMath\Public\BCSMath.h">
 			<Filter>Plugins\BCSMath\Source\BCSMath\Public</Filter>
 		</ClInclude >
 		<ClInclude Include="..\..\Plugins\BCSMath\Source\BCSMath\Public\BCSMatrix2.h">
+			<Filter>Plugins\BCSMath\Source\BCSMath\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\BCSMath\Source\BCSMath\Public\BCSMatrix3.h">
+			<Filter>Plugins\BCSMath\Source\BCSMath\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\BCSMath\Source\BCSMath\Public\BCSMatrix4.h">
 			<Filter>Plugins\BCSMath\Source\BCSMath\Public</Filter>
 		</ClInclude >
 		<ClInclude Include="..\..\Plugins\BCSMath\Source\BCSMath\Public\BCSTestActor.h">
@@ -73,13 +85,13 @@
 			<Filter>Plugins\BCSMath</Filter>
 		</None >
 		<Filter Include="Plugins\BCSMath\Resources">
-			<UniqueIdentifier>{2D2B3211-6B28-4203-A606-7C8AC0C47C3E}</UniqueIdentifier>
+			<UniqueIdentifier>{CFF92BC9-9CD5-475B-8CB0-5969B480304D}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Plugins\BCSMath\Resources\Icon128.png">
 			<Filter>Plugins\BCSMath\Resources</Filter>
 		</None >
 		<Filter Include="Source\CKLIB">
-			<UniqueIdentifier>{0F792128-63C0-4284-96CF-D9384D94DE55}</UniqueIdentifier>
+			<UniqueIdentifier>{C60CFA71-F2FE-4BBD-AD6E-9C47EAB13DAA}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\CKLIB\CKLIB.Build.cs">
 			<Filter>Source\CKLIB</Filter>
