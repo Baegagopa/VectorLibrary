@@ -85,6 +85,28 @@ FBCSMatrix3 FBCSMatrix3::operator*(const FBCSMatrix3& M) const
 		m31, m32, m33);
 }
 
+FBCSMatrix3 FBCSMatrix3::Inverse(const FCKMatrix3& M) const {
+   float det =
+      M._11 * M._22 * M._33 +
+      M._12 * M._23 * M._31 +
+      M._13 * M._22 * M._32 -
+      M._13 * M._22 * M._31 -
+      M._12 * M._21 * M._33 -
+      M._11 * M._23 * M._32;
+
+   return FBCSMatrix3(
+      (_22 * _33 + _23 * _32) / det,
+      (_12 * _33 + _13 * _32) / det * -1,
+      (_12 * _23 + _13 * _22) / det,
+      (_21 * _33 + _23 * _31) / det * -1,
+      (_11 * _33 + _13 * _31) / det,
+      (_11 * _23 + _13 * _21) / det * -1,
+      (_21 * _32 + _22 * _31) / det,
+      (_11 * _32 + _12 * _31) / det * -1,
+      (_11 * _22 + _12 * _21) / det
+   );
+}
+
 FBCSMatrix3 FBCSMatrix3::operator*(const float s) const
 {
 	return FBCSMatrix3(
