@@ -25,7 +25,7 @@ bool FBCSMathTest::RunTest( const FString& Parameters )
 
 	//// constructors must create equal objects
 	//{
-	//	FTimespan ts1_1 = FTimespan(3, 2, 1);
+	//	FTimespan ts1_1 = FTimespan(3, 2, 1);  
 	//	FTimespan ts1_2 = FTimespan(0, 3, 2, 1);
 	//	FTimespan ts1_3 = FTimespan(0, 3, 2, 1, 0);
 

@@ -44,7 +44,8 @@ public:
 	FBCSMatrix3 operator-(const FBCSMatrix3& M) const;
 	FBCSMatrix3 operator*(const FBCSMatrix3& M) const;
 	FBCSMatrix3 operator*(const float s) const;
-
+	
+	FBCSMatrix3 Inverse() const;
 	FBCSMatrix3 Tranposed() const;
 	FBCSMatrix3 Identity() const;
 };
@@ -87,7 +88,7 @@ FBCSMatrix3 FBCSMatrix3::operator*(const FBCSMatrix3& M) const
 
 FBCSMatrix3 FBCSMatrix3::Inverse() const {
    float det =
-      _11 * _22 * _33 +
+	   _11 * _22 * _33 +
       _12 * _23 * _31 +
       _13 * _22 * _32 -
       _13 * _22 * _31 -
